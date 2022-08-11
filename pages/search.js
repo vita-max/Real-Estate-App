@@ -8,7 +8,7 @@ import Property from "../components/Property";
 import noresults from "../assets/images/noresults.svg";
 import { fetchApi, baseUrl } from "../utils/fetchApi";
 
-const search = ({ properties }) => {
+const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
   const router = useRouter();
   return (
@@ -55,7 +55,7 @@ const search = ({ properties }) => {
   );
 };
 
-export default search;
+export default Search;
 
 // export async function getStaticProps({query}) {
 
